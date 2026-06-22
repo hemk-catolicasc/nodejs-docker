@@ -1,0 +1,244 @@
+[
+    {
+        "Id": "721834d80dd9084d38307b8626aeb97cca4bc6c3b0dd472327b37c289acaab6e",
+        "Created": "2026-06-22T21:53:37.577904495Z",
+        "Path": "docker-entrypoint.sh",
+        "Args": [
+            "node",
+            "server.js"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 954,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-06-22T21:53:58.44543538Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:803ff3fcd461da14ab0b6984e4d4f29c0e931debd8a6c7b6a2aaf1c052139492",
+        "ResolvConfPath": "/var/lib/docker/containers/721834d80dd9084d38307b8626aeb97cca4bc6c3b0dd472327b37c289acaab6e/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/721834d80dd9084d38307b8626aeb97cca4bc6c3b0dd472327b37c289acaab6e/hostname",
+        "HostsPath": "/var/lib/docker/containers/721834d80dd9084d38307b8626aeb97cca4bc6c3b0dd472327b37c289acaab6e/hosts",
+        "LogPath": "/var/lib/docker/containers/721834d80dd9084d38307b8626aeb97cca4bc6c3b0dd472327b37c289acaab6e/721834d80dd9084d38307b8626aeb97cca4bc6c3b0dd472327b37c289acaab6e-json.log",
+        "Name": "/so_web",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "adoring-wescoff-2f2016_rede_app",
+            "PortBindings": {
+                "3000/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "3000"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "unless-stopped",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 134217728,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 268435456,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "721834d80dd9",
+            "Domainname": "",
+            "User": "node",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "3000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "ALUNO=Lucas Hemkemeier",
+                "DB_HOST=db",
+                "DB_USER=root",
+                "DB_PASSWORD=senha_dev_123",
+                "DB_NAME=appdb",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NODE_VERSION=20.20.2",
+                "YARN_VERSION=1.22.22",
+                "NODE_ENV=production"
+            ],
+            "Cmd": [
+                "node",
+                "server.js"
+            ],
+            "Image": "adoring-wescoff-2f2016-web",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "d8ae9a24c808c5aa53bb3c9fe0415bfa81f1033f64284683eb564471409a6b4b",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "db:service_healthy:false",
+                "com.docker.compose.image": "sha256:803ff3fcd461da14ab0b6984e4d4f29c0e931debd8a6c7b6a2aaf1c052139492",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "adoring-wescoff-2f2016",
+                "com.docker.compose.project.config_files": "C:\\Users\\ZETEC\\Documents\\Católica SC\\nodejs-docker\\.claude\\worktrees\\adoring-wescoff-2f2016\\docker-compose.yml",
+                "com.docker.compose.project.working_dir": "C:\\Users\\ZETEC\\Documents\\Católica SC\\nodejs-docker\\.claude\\worktrees\\adoring-wescoff-2f2016",
+                "com.docker.compose.service": "web",
+                "com.docker.compose.version": "5.1.4"
+            },
+            "StopTimeout": 1
+        },
+        "NetworkSettings": {
+            "SandboxID": "78bdfb844e80381b47909d3948a33a5e2b86e1d7a54178c172cb40e63fadabf2",
+            "SandboxKey": "/var/run/docker/netns/78bdfb844e80",
+            "Ports": {
+                "3000/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "3000"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "3000"
+                    }
+                ]
+            },
+            "Networks": {
+                "adoring-wescoff-2f2016_rede_app": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "so_web",
+                        "web"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "cdb66fbb816a94091a77dbc3c60a77db757256a21f778cd6de054fb9f779ec07",
+                    "EndpointID": "b1de58d35c53f8166f36d14a9437a43f865da14f1bb0e6bc027987eb16dbb491",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.3",
+                    "MacAddress": "5a:8e:fa:a1:79:a6",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "so_web",
+                        "web",
+                        "721834d80dd9"
+                    ]
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:9052bb64908bb853ec6e00c6251643821c18a5d5ce2ef839eca4b7fb26320717",
+            "size": 2191,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]
